@@ -15,6 +15,7 @@ vot1:inteiro
 vot2:inteiro
 vot3:inteiro
 opc:caractere
+opc2:caractere
 
 Inicio
 
@@ -75,9 +76,9 @@ leia(numeroCand)
                                votBranco <- votBranco + 1
                  fimse
 limpatela
+timer(50)
 escreval("Confirmado!")
-escreval("")
-escreval("")
+timer(0)
 escreval("terminar a votação ?")
 leia(opc)
 ate (opc = "s")
