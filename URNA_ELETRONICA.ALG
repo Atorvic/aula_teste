@@ -19,6 +19,10 @@ opc2:caractere
 
 Inicio
 
+vot1 <- 0
+vot2 <- 0
+vot3 <- 0
+
 escreval("Nome do candidato1: ")
 leia(candidato1)
 escreval("Informe o numero do candidato: ")
@@ -46,8 +50,8 @@ escreval(".")
 timer(0)
 limpatela
 escreval("----------------------Eleição------------------------")
-escreval("Nome candidato 1: ",candidato1," Numero: ",numeroCand1)
-escreval("Nome candidato 2: ",candidato2," Numero: ",numeroCand2)
-escreval("Nome candidato 3: ",candidato3," Numero: ",numeroCand3)
+escreval("Nome candidato 1: ",candidato1," Numero: ",numeroCand1," Qunatidade de votos: ",vot1)
+escreval("Nome candidato 2: ",candidato2," Numero: ",numeroCand2," Qunatidade de votos: ",vot2)
+escreval("Nome candidato 3: ",candidato3," Numero: ",numeroCand3," Qunatidade de votos: ",vot3)
 
 Fimalgoritmo
