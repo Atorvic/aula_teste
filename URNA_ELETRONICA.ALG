@@ -16,7 +16,6 @@ vot2:inteiro
 vot3:inteiro
 opc:caractere
 opc2:caractere
-cadastroCad:
 
 Inicio
 
@@ -34,7 +33,21 @@ escreval("Nome do candidato3: ")
 leia(candidato3)
 escreval("Informe o numero do candidato: ")
 leia(numeroCand3)
-
-
+limpatela
+timer(500)
+escreval(".")
+escreval(".")
+escreval(".")
+escreval(".")
+escreval(".")
+escreval(".")
+escreval(".")
+escreval(".")
+timer(0)
+limpatela
+escreval("----------------------Eleição------------------------")
+escreval("Nome candidato 1: ",candidato1," Numero: ",numeroCand1)
+escreval("Nome candidato 2: ",candidato2," Numero: ",numeroCand2)
+escreval("Nome candidato 3: ",candidato3," Numero: ",numeroCand3)
 
 Fimalgoritmo
